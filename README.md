@@ -23,3 +23,9 @@ rails middleware
 
 diff -u <(cd normal && rails middleware) <(cd backend && rails middleware)
 ```
+
+Generatorでviewやhelperを生成しない
+```
+rails g scaffold Project title:string started_at:datetime
+rails g controller issues index show
+```
