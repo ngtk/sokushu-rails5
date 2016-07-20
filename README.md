@@ -40,3 +40,10 @@ rails
 ```
 rake -T
 ```
+
+## ActiveRecord Attributes API
+
+```
+rails g scaffold Book title:string price_in_cents:decimal
+rails db:migrate
+```
