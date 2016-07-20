@@ -17,4 +17,9 @@ rails s
 ```
 
 ## API Mode
+```
+cd backend
+rails middleware
 
+diff -u <(cd normal && rails middleware) <(cd backend && rails middleware)
+```
