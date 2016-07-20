@@ -29,3 +29,14 @@ Generatorでviewやhelperを生成しない
 rails g scaffold Project title:string started_at:datetime
 rails g controller issues index show
 ```
+
+## railsコマンドへの統一
+```
+rails -h
+# or
+rails
+```
+
+```
+rake -T
+```
